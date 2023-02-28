@@ -43,13 +43,10 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 30,
               ),
               const Center(
-                child: Image(
-                  image: NetworkImage(
-                    'https://ouch-cdn2.icons8.com/1e0D0-q6KrxhpyqzeYamU94x9b9fRzQPUIoQydPrJdw/rs:fit:456:456/extend:true/wm:1:re:0:0:0.8/wmid:ouch/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNjIw/L2VjYWFmMDE4LTE5/OGItNDg1YS04ZDEz/LTc3Yzc2Mzk3MTU5/OS5zdmc.png',
-                  ),
-                  height: 200,
-                ),
-              ),
+                  child: Image(
+                image: AssetImage("asset/image/prf-2.jpg"),
+                height: 200,
+              )),
               const SizedBox(
                 height: 40,
               ),
